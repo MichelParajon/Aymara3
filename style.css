@@ -255,7 +255,7 @@
 }
 
 .tituloMayorista h2 {
-    font-size: 55px;
+    font-size: 50px;
     margin-right: 250px;
 
 }
@@ -747,9 +747,10 @@ margin-top: 50px;
 
 .parrafoPrincipal {
     grid-area: parrafoprincipal;
-    text-align: center;
+    text-align: left;
     margin-top: 30px;
     font-weight: 100;
+  
 
 
 }
@@ -758,12 +759,13 @@ margin-top: 50px;
 p {
     font-weight: 100;
     font-size: 20px;
+    border: solid2px;
 }
 
 .parrafoSecundario {
     grid-area: parrafosecundario;
-    text-align: center;
-    margin-top: 60px;
+    text-align: right;
+    margin-top: 110px;
     font-weight: 100;
 }
 
