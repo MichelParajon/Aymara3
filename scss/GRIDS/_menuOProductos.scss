@@ -20,39 +20,34 @@
     .desayuno {
         grid-area: desayuno;
         background-image: url(../images/desayuno.jpeg);
-        background-size: cover;
-        background-position: center;
+        @include Fotos
     
     }
     
     .taza {
         grid-area: taza;
         background-image: url(../images/tazas.jpeg);
-        background-size: cover;
-        background-position: center;
+        @include Fotos
     
     }
     
     .tejido {
         grid-area: tejido;
         background-image: url(../images/tejidos.jpeg);
-        background-size: cover;
-        background-position: center;
+        @include Fotos
     }
     
     
     .pijama {
         grid-area: pijama;
         background-image: url(../images/pijama.jpeg);
-        background-size: cover;
-        background-position: center;
+        @include Fotos
     }
     
     .bandeja {
         grid-area: bandeja;
         background-image: url(../images/bandeja.jpeg);
-        background-size: cover;
-        background-position: center;
+        @include Fotos
     }
     
     

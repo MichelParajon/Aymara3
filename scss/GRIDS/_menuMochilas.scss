@@ -40,9 +40,8 @@
 
         grid-area: foto;
         background-image: url(../images/hombreconmochila.jpeg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @include Fotos
+       
     
     
     }
@@ -60,8 +59,7 @@
     .mochila2 {
         grid-area: mochila2;
         background-image: url(../images/mochila2.jpeg);
-        background-size: cover;
-        background-position: center;
+        @include Fotos
     
     
     }
@@ -69,16 +67,14 @@
     .mochila3 {
         grid-area: mochila3;
         background-image: url(../images/mochila3.jpeg);
-        background-size: cover;
-        background-position: center;
+        @include Fotos
     
     }
     
     .mochila4 {
         grid-area: mochila4;
         background-image: url(../images/mochila4.jpeg);
-        background-size: cover;
-        background-position: center;
+        @include Fotos
     
     
     }

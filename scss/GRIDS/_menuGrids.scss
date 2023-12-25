@@ -20,49 +20,43 @@
     .calzado {
         grid-area: calzado;
         background-image: url(../images/calzado.jpeg);
-        background-size: cover;
-        background-position: center;
+        @include Fotos
     }
     
     .mate {
         grid-area: mate;
         background-image: url(../images/mate.jpeg);
-        background-size: cover;
-        background-position: center;
+        @include Fotos
         
     }
     
     .tiradores {
         grid-area: tiradores;
         background-image: url(../images/tiradores.jpeg);
-        background-size: cover;
-        background-position: center;
+        @include Fotos
     
     }
     
     .collares {
         grid-area: collares;
         background-image: url(../images/collares.jpeg);
-        background-size: cover;
-        background-position: center;
-        text-align: start;
+        @include Fotos
+        
     
     }
     
     .billeteras {
         grid-area: billeteras;
         background-image: url(../images/billeteras.jpeg);
-        background-size: cover;
-        background-position: center;
-        text-align: center;
+        @include Fotos
+        
     }
     
     .adornos {
         grid-area: adornos;
         background-image: url(../images/adornos.jpeg);
-        background-size: cover;
-        background-position: center;
-        text-align: end;
+        @include Fotos
+        
     }
 
 }

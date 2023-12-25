@@ -37,7 +37,7 @@ form {
     }
 
     input::placeholder textarea::placeholder {
-        color: #93A3BC;
+        color: $color-primario;
     }
 
     .form-txt {
@@ -47,7 +47,7 @@ form {
         text-align: center;
 
         a {
-            color: #93A3BC;
+            color: $color-primario;
             font-size: 14px;
             font-weight: 400;
             text-decoration: none;
@@ -61,7 +61,7 @@ form {
 
         font-size: 20px;
         border: 0;
-        background-color: #93A3BC;
+        background-color: $color-primario;
         cursor: pointer;
 
         &:hover {
