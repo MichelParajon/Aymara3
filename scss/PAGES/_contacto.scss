@@ -1,0 +1,47 @@
+/* -----------------CONTACTO-CONTACTO-CONTACO-CONTACTO------------------- */
+
+
+
+/*portada*/
+
+
+
+
+
+#infoContactoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+
+
+#textoContactoContainer h2 {
+    font-size: 80px;
+}
+
+#textoContactoContainer p {
+    font-weight: 40px;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#LogosContactoContainer img {
+    width: 60px;
+}
+
+#LogosContactoContainer {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+
+iframe {
+    margin-top: 30px;
+
+}
