@@ -71,7 +71,7 @@
 
 .fotoentera {
     height: 50vh;
-    background-image: url(./images/artesanaportada.webp);
+    background-image: url(../images/artesanaportada.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -165,14 +165,14 @@
 
 .calzado {
     grid-area: calzado;
-    background-image: url(./images/calzado.jpeg);
+    background-image: url(../images/calzado.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .mate {
     grid-area: mate;
-    background-image: url(./images/mate.jpeg);
+    background-image: url(../images/mate.jpeg);
     background-size: cover;
     background-position: center;
     text-align: end;
@@ -180,7 +180,7 @@
 
 .tiradores {
     grid-area: tiradores;
-    background-image: url(./images/tiradores.jpeg);
+    background-image: url(../images/tiradores.jpeg);
     background-size: cover;
     background-position: center;
     text-align: right;
@@ -191,7 +191,7 @@
 
 .collares {
     grid-area: collares;
-    background-image: url(./images/collares.jpeg);
+    background-image: url(../images/collares.jpeg);
     background-size: cover;
     background-position: center;
     text-align: start;
@@ -202,7 +202,7 @@
 
 .billeteras {
     grid-area: billeteras;
-    background-image: url(./images/billeteras.jpeg);
+    background-image: url(../images/billeteras.jpeg);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -210,7 +210,7 @@
 
 .adornos {
     grid-area: adornos;
-    background-image: url(./images/adornos.jpeg);
+    background-image: url(../images/adornos.jpeg);
     background-size: cover;
     background-position: center;
     text-align: end;
@@ -305,7 +305,7 @@ a:visited {
 .mochilaImg {
 
     grid-area: foto;
-    background-image: url(./images/hombreconmochila.jpeg);
+    background-image: url(../images/hombreconmochila.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -315,7 +315,7 @@ a:visited {
 
 .mochila1 {
     grid-area: mochila1;
-    background-image: url(./images/mochila1.jpeg);
+    background-image: url(../images/mochila1.jpeg);
     background-size: cover;
     background-position: center;
 
@@ -325,7 +325,7 @@ a:visited {
 
 .mochila2 {
     grid-area: mochila2;
-    background-image: url(./images/mochila2.jpeg);
+    background-image: url(../images/mochila2.jpeg);
     background-size: cover;
     background-position: center;
 
@@ -334,7 +334,7 @@ a:visited {
 
 .mochila3 {
     grid-area: mochila3;
-    background-image: url(./images/mochila3.jpeg);
+    background-image: url(../images/mochila3.jpeg);
     background-size: cover;
     background-position: center;
 
@@ -342,7 +342,7 @@ a:visited {
 
 .mochila4 {
     grid-area: mochila4;
-    background-image: url(./images/mochila4.jpeg);
+    background-image: url(../images/mochila4.jpeg);
     background-size: cover;
     background-position: center;
 
@@ -371,7 +371,7 @@ a:visited {
 
 .desayuno {
     grid-area: desayuno;
-    background-image: url(./images/desayuno.jpeg);
+    background-image: url(../images/desayuno.jpeg);
     background-size: cover;
     background-position: center;
 
@@ -379,7 +379,7 @@ a:visited {
 
 .taza {
     grid-area: taza;
-    background-image: url(./images/tazas.jpeg);
+    background-image: url(../images/tazas.jpeg);
     background-size: cover;
     background-position: center;
 
@@ -387,7 +387,7 @@ a:visited {
 
 .tejido {
     grid-area: tejido;
-    background-image: url(./images/tejidos.jpeg);
+    background-image: url(../images/tejidos.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -395,14 +395,14 @@ a:visited {
 
 .pijama {
     grid-area: pijama;
-    background-image: url(./images/pijama.jpeg);
+    background-image: url(../images/pijama.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .bandeja {
     grid-area: bandeja;
-    background-image: url(./images/bandeja.jpeg);
+    background-image: url(../images/bandeja.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -736,21 +736,21 @@ main {
 
 .imagenPrincipal {
     grid-area: imagenprincipal;
-    background-image: url(./images/fotoprincipal.jpeg);
+    background-image: url(../images/fotoprincipal.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .imagenSecundaria {
     grid-area: imagensecundaria;
-    background-image: url(./images/fotosecundaria.jpeg);
+    background-image: url(../images/fotosecundaria.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .imagenTerciaria {
     grid-area: imagenterciaria;
-    background-image: url(./images/fototerciaria.jpeg);
+    background-image: url(../images/fototerciaria.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -780,7 +780,7 @@ p {
 }
 
 .imagenCuarta {
-    background-image: url(./images/imagencuarta.jpeg);
+    background-image: url(../images/imagencuarta.jpeg);
     background-size: cover;
     background-position: center;
 }
