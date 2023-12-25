@@ -15,9 +15,6 @@
 /*HEADER*/
 
 
-#menu {
-    display: none;
-}
 
 
 
@@ -50,22 +47,25 @@
 
 .logoNombre p {
     align-items: center;
-}
-
-.lista {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 50px;
-    color: #93A3BC;
+    margin-top: 15px;
 
 }
 
-.lista li {
-    margin-left: 20px;
-    margin-right: 20px;
-    color: #93A3BC;
+
+
+.navbar-brand {
+    display: none;
 }
+
+
+
+
+
+
+
+
+
+
 
 /*PORTADA*/
 
@@ -99,7 +99,7 @@
     padding: 15px;
     background-color: #CCDDE2;
     border-radius: 15px;
-    align-content: end;
+    margin-bottom: 130px;
     color: #48ACF0;
 
 }
@@ -220,44 +220,43 @@
 /*   VANNER MAYORISTA   */
 
 #vannerMayorista {
-    background-image: url(./images/textura\ 1.webp);
-    background-size: cover;
-    background-position: center;
+    background-color: #CCDDE2;
     display: flex;
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
-    height: 450px;
+    height: 150px;
     width: 100%;
     margin-top: 250px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+  
 }
 
-.logoNombre2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
 
-}
 
-.logoNobre2 img {
-    width: 17vh;
 
-}
 
-.fotoModelo {
-    background-image: url(./images/modelomayorista.png);
-    height: 450px;
-    width: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
+.tituloMayorista a {
+    font-size: 150px;
+    margin-right: 250px;
+    text-decoration: none;
+    color: white;
+   
+
 }
 
 .tituloMayorista h2 {
-    font-size: 50px;
-    margin-right: 250px;
+    font-size: 80px;
+    margin-top: 200px;
+   align-content: center;
 
+}
+
+a:visited {
+    text-decoration: none;
 }
 
 
@@ -270,12 +269,21 @@
 
 .tituloMochilas {
     text-align: center;
-    margin-top: 30vh;
+    margin-top: 20vh;
     color: #93A3BC;
     background-color: #CCDDE2;
-    width: 50%;
+    height: 100px;
+    text-align: center;
     align-items: center;
+    width: 40%;
+     
 
+}
+.tituloMochilas h2{
+    font-size: 40px;
+    color: white;
+  padding-top: 25px;
+   
 }
 
 #mochilasContainer {
@@ -403,15 +411,19 @@
 
 .otrosProductos {
     text-align: center;
-    margin-top: 10vh;
-    color: #93A3BC;
+    margin-top: 20vh;
+    color: white;
     background-color: #CCDDE2;
-    width: 50%;
+    width: 40%;
     align-items: center;
-    border-radius: 15px;
-    margin-bottom: 10vh;
+   margin-bottom: 7vh;
+   height: 100px;
 
 }
+.otrosProductos h2{
+    font-size: 40px;
+    color: white;
+  padding-top: 25px;}
 
 
 
@@ -423,8 +435,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     background-color: #93A3BC;
-    padding-top: 50px;
-    padding-bottom: 50px;
+
 }
 
 
@@ -478,9 +489,6 @@ footer {
 
 }
 
-H4 {
-    margin-bottom: 10PX;
-}
 
 
 
@@ -635,7 +643,8 @@ main {
 .info-product {
     padding: 15px 30px;
 }
-.info-product button{
+
+.info-product button {
     align-items: center;
 }
 
@@ -664,16 +673,17 @@ main {
 
     border: none;
     background: none;
-    background-color:#48ACF0;
+    background-color: #48ACF0;
     color: white;
     padding: 15px 10px;
     cursor: pointer;
     align-items: center;
 }
-.destacados{
-font-size: 60px;
-margin-bottom: 50px;
-margin-top: 50px;
+
+.destacados {
+    font-size: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 
@@ -750,7 +760,7 @@ margin-top: 50px;
     text-align: left;
     margin-top: 30px;
     font-weight: 100;
-  
+
 
 
 }
@@ -784,7 +794,7 @@ p {
     flex-direction: column;
     text-align: left;
     padding: 50px;
-    margin-top: 80px;
+
     margin-left: 30px;
     margin-right: 50px;
 
@@ -792,7 +802,7 @@ p {
 }
 
 #ayudaUsuario .pregunta {
-    margin-top: 100px;
+
     display: flex;
     justify-content: space-between;
     text-align: right;
@@ -923,13 +933,14 @@ h3 {
 
     /* -----------------menu menu menu menu------------------- */
 
-    .content img {
-        height: 30px;
-        color: white;
-        display: block;
-        cursor: pointer;
-
-
+    .portada h1 {
+        display: none;
 
     }
+
+    .portada {
+        display: none;
+    }
+
+
 }
