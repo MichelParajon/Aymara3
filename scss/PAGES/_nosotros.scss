@@ -17,28 +17,23 @@
     margin-top: 50px;
     margin-bottom: 100PX;
 
-
 }
-
 #nosotros {
     font-size: 80px;
     text-align: center;
 }
-
-.tituloNostros p {
-    font-size: 20px;
-    margin-top: 30px;
-    font-weight: 100;
-    text-align: center;
-    margin-bottom: 100px;
-
-
-}
-
 .tituloNostros {
     grid-area: titulo;
-
     text-align: center;
+    p {
+        font-size: 20px;
+        margin-top: 30px;
+        font-weight: 100;
+        text-align: center;
+        margin-bottom: 100px;
+    
+    
+    }
 
 }
 
@@ -68,16 +63,11 @@
     text-align: left;
     margin-top: 30px;
     font-weight: 100;
-
-
-
-}
-
-.parrafoPrincipal,
-p {
-    font-weight: 100;
-    font-size: 20px;
-    margin-bottom: 100px;
+    p {
+        font-weight: 100;
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
 }
 
 .parrafoSecundario {

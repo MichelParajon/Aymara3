@@ -2,11 +2,6 @@
 
 
 
-/*portada*/
-
-
-
-
 
 #infoContactoContainer {
     display: flex;
@@ -16,32 +11,32 @@
 
 }
 
-
-
-#textoContactoContainer h2 {
-    font-size: 80px;
-}
-
-#textoContactoContainer p {
+#textoContactoContainer{
+     p {
     font-weight: 40px;
     width: 400px;
     text-align: center;
-    margin-top: 10px;
-}
-
-#LogosContactoContainer img {
-    width: 60px;
+    margin-top: 10px;}
+    h2 {
+        font-size: 70px;
+    }
 }
 
 #LogosContactoContainer {
     display: flex;
+    flex-direction: row;
     width: 400px;
     justify-content: space-evenly;
-    margin-top: 40px;
+    
+    img {
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+    }
 
 }
 
 iframe {
-    margin-top: 30px;
+    margin-top: 50px;
 
 }

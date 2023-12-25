@@ -10,42 +10,56 @@ footer {
 }
 
 
-#mediosDePago img {
-    height: 40px;
-
-}
 
 #mediosDePago {
     text-align: center;
-}
 
-#mediosDePago h4 {
-    margin-bottom: 15px;
-    text-align: left;
-    margin-top: 15px;
-}
+    img {
+        height: 40px;
 
-#navegacion h4 {
-    margin-top: 15px;
-}
-#navegacion p{
-    margin: 10px;
-    text-decoration: none;
-}
+    }
 
-#infoContacto h4 {
-    margin-top: 15px;
+    h4 {
+        margin-bottom: 15px;
+        text-align: left;
+        margin-top: 15px;
+    }
 }
 
 
-#infoContacto img {
-    height: 25px;
-    padding-right: 10px;
+
+#navegacion {
+    h4 {
+        margin-top: 15px;
+    }
+
+    p {
+        margin: 10px;
+        text-decoration: none;
+    }
 
 }
-#infoContacto p{ margin: 10px;
 
+
+#infoContacto {
+    h4 {
+        margin-top: 15px;
+    }
+
+    img {
+        height: 25px;
+        padding-right: 10px;
+
+    }
+
+    p {
+        margin: 10px;
+
+    }
 }
+
+
+
 .mail {
     display: flex;
     flex-direction: row;

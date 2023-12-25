@@ -1,11 +1,5 @@
 /* OPCIONES DE COMPRA*/
 
-#opcionesCompra img {
-    height: 70px;
-    margin-top: 30px;
-
-
-}
 
 #opcionesCompra {
     display: flex;
@@ -14,8 +8,13 @@
     margin-left: 50px;
     margin-right: 50px;
 
+    img {
+        height: 70px;
+        margin-top: 30px;
+    }
+    p {
+        color: #93A3BC;
+    }
+
 }
 
-#opcionesCompra p {
-    color: #93A3BC;
-}

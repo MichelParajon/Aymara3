@@ -13,13 +13,11 @@
     align-items: center;
     width: 40%;
 
-
+    h2 {
+        font-size: 40px;
+        color: white;
+        padding-top: 25px;
 }
-
-.tituloMochilas h2 {
-    font-size: 40px;
-    color: white;
-    padding-top: 25px;
 
 }
 
@@ -37,51 +35,52 @@
     row-gap: 20px;
     justify-content: center;
     height: 100vh;
+
+    .mochilaImg {
+
+        grid-area: foto;
+        background-image: url(../images/hombreconmochila.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    
+    }
+    
+    .mochila1 {
+        grid-area: mochila1;
+        background-image: url(../images/mochila1.jpeg);
+        background-size: cover;
+        background-position: center;
+    
+    
+    
+    }
+    
+    .mochila2 {
+        grid-area: mochila2;
+        background-image: url(../images/mochila2.jpeg);
+        background-size: cover;
+        background-position: center;
+    
+    
+    }
+    
+    .mochila3 {
+        grid-area: mochila3;
+        background-image: url(../images/mochila3.jpeg);
+        background-size: cover;
+        background-position: center;
+    
+    }
+    
+    .mochila4 {
+        grid-area: mochila4;
+        background-image: url(../images/mochila4.jpeg);
+        background-size: cover;
+        background-position: center;
+    
+    
+    }
 }
 
-.mochilaImg {
-
-    grid-area: foto;
-    background-image: url(../images/hombreconmochila.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-
-}
-
-.mochila1 {
-    grid-area: mochila1;
-    background-image: url(../images/mochila1.jpeg);
-    background-size: cover;
-    background-position: center;
-
-
-
-}
-
-.mochila2 {
-    grid-area: mochila2;
-    background-image: url(../images/mochila2.jpeg);
-    background-size: cover;
-    background-position: center;
-
-
-}
-
-.mochila3 {
-    grid-area: mochila3;
-    background-image: url(../images/mochila3.jpeg);
-    background-size: cover;
-    background-position: center;
-
-}
-
-.mochila4 {
-    grid-area: mochila4;
-    background-image: url(../images/mochila4.jpeg);
-    background-size: cover;
-    background-position: center;
-
-
-}
