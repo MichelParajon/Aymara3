@@ -13,7 +13,9 @@
 }
 
 /*HEADER*/
-
+.navbar {
+    margin-bottom: 80px
+}
 
 
 
@@ -24,18 +26,20 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
     padding: 15px 15px;
+   
 }
 
 .content img {
     height: 60px;
     display: none;
+   
 
 }
 
 .logoNombre img {
     width: 60px;
+    margin-bottom: 80px;
 }
 
 .logoNombre {
@@ -85,6 +89,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    
 
 }
 
@@ -94,25 +99,22 @@
 
 }
 
-.botonPortada {
 
-    padding: 15px;
-    background-color: #CCDDE2;
-    border-radius: 15px;
-    margin-bottom: 130px;
-    color: #48ACF0;
+    
 
-}
+
 
 .portada h1 {
     font-size: 75px;
     text-align: start;
+   
 
 
 }
 
 .portada P {
     font-size: 40PX;
+   
 
 }
 
@@ -230,7 +232,7 @@
     margin-top: 250px;
     border-top: solid 1px;
     border-bottom: solid 1px;
-  
+
 }
 
 
@@ -244,14 +246,14 @@
     margin-right: 250px;
     text-decoration: none;
     color: white;
-   
+
 
 }
 
 .tituloMayorista h2 {
     font-size: 80px;
     margin-top: 200px;
-   align-content: center;
+    align-content: center;
 
 }
 
@@ -276,14 +278,15 @@ a:visited {
     text-align: center;
     align-items: center;
     width: 40%;
-     
+
 
 }
-.tituloMochilas h2{
+
+.tituloMochilas h2 {
     font-size: 40px;
     color: white;
-  padding-top: 25px;
-   
+    padding-top: 25px;
+
 }
 
 #mochilasContainer {
@@ -416,14 +419,16 @@ a:visited {
     background-color: #CCDDE2;
     width: 40%;
     align-items: center;
-   margin-bottom: 7vh;
-   height: 100px;
+    margin-bottom: 7vh;
+    height: 100px;
 
 }
-.otrosProductos h2{
+
+.otrosProductos h2 {
     font-size: 40px;
     color: white;
-  padding-top: 25px;}
+    padding-top: 25px;
+}
 
 
 
@@ -457,6 +462,10 @@ footer {
 #navegacion h4 {
     margin-top: 15px;
 }
+#navegacion p{
+    margin: 10px;
+    text-decoration: none;
+}
 
 #infoContacto h4 {
     margin-top: 15px;
@@ -466,8 +475,11 @@ footer {
 #infoContacto img {
     height: 25px;
     padding-right: 10px;
-}
 
+}
+#infoContacto p{ margin: 10px;
+
+}
 .mail {
     display: flex;
     flex-direction: row;
@@ -723,6 +735,7 @@ main {
     margin-top: 30px;
     font-weight: 100;
     text-align: center;
+    margin-bottom: 100px;
 
 
 }
@@ -769,13 +782,13 @@ main {
 p {
     font-weight: 100;
     font-size: 20px;
-    border: solid2px;
+    margin-bottom: 100px;
 }
 
 .parrafoSecundario {
     grid-area: parrafosecundario;
     text-align: right;
-    margin-top: 110px;
+    margin-top: 20px;
     font-weight: 100;
 }
 
