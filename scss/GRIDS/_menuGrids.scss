@@ -1,0 +1,75 @@
+/*GRIDS*/
+
+#gridcontainer {
+    display: grid;
+    grid-template-areas:
+        "calzado    calzado   mate"
+        "tiradores  collares  billeteras"
+        "tiradores  adornos   adornos";
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 40% 30% 40%;
+    justify-content: center;
+    height: 100vh;
+    row-gap: 20px;
+    column-gap: 36px;
+    margin-top: 50px;
+    font-size: 60px;
+    color: #93A3BC;
+    font-size: 45px;
+
+
+
+}
+
+.calzado {
+    grid-area: calzado;
+    background-image: url(../images/calzado.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mate {
+    grid-area: mate;
+    background-image: url(../images/mate.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: end;
+}
+
+.tiradores {
+    grid-area: tiradores;
+    background-image: url(../images/tiradores.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+
+
+
+}
+
+.collares {
+    grid-area: collares;
+    background-image: url(../images/collares.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+
+
+
+}
+
+.billeteras {
+    grid-area: billeteras;
+    background-image: url(../images/billeteras.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.adornos {
+    grid-area: adornos;
+    background-image: url(../images/adornos.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: end;
+}

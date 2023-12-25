@@ -1,0 +1,78 @@
+/* FORMULARIOOOOOOOOO */
+
+form {
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    box-shadow: 0 0 20px ;
+    text-align: center;
+
+    width: 700px;
+    margin-bottom: 50px;
+
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 500px;
+
+}
+
+label {
+
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+input,
+textarea {
+    padding: 17px 25px;
+    margin-bottom: 20px;
+    background-color: #CCDDE2;
+    border: 3 px;
+    outline: name;
+}
+
+input::placeholder textarea::placeholder {
+    color: #93A3BC;
+}
+
+.form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.form-txt a {
+    color: #93A3BC;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.btn {
+
+    font-size: 20px;
+    border: 0;
+    background-color: #93A3BC;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #48ACF0;
+}
+
+
+main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

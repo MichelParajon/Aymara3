@@ -1,0 +1,46 @@
+/*PORTADA*/
+
+.fotoentera {
+    height: 50vh;
+    background-image: url(../images/artesanaportada.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+
+}
+
+.portada {
+    color: #93A3BC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.portada span {
+    color: #48ACF0;
+
+
+}
+
+
+    
+
+
+
+.portada h1 {
+    font-size: 75px;
+    text-align: start;
+   
+
+
+}
+
+.portada P {
+    font-size: 40PX;
+   
+
+}

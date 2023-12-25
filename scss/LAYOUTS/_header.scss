@@ -1,0 +1,48 @@
+/*HEADER*/
+.navbar {
+    margin-bottom: 80px
+}
+
+
+
+
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+   
+}
+
+.content img {
+    height: 60px;
+    display: none;
+   
+
+}
+
+.logoNombre img {
+    width: 60px;
+    margin-bottom: 80px;
+}
+
+.logoNombre {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.logoNombre p {
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+
+
+.navbar-brand {
+    display: none;
+}

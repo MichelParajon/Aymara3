@@ -1,0 +1,87 @@
+/*mochilas*/
+
+
+
+
+.tituloMochilas {
+    text-align: center;
+    margin-top: 20vh;
+    color: #93A3BC;
+    background-color: #CCDDE2;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+
+
+}
+
+.tituloMochilas h2 {
+    font-size: 40px;
+    color: white;
+    padding-top: 25px;
+
+}
+
+#mochilasContainer {
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas:
+        "foto   mochila1   mochila2"
+        "foto   mochila3   mochila4";
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 50% 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+    column-gap: 15px;
+    row-gap: 20px;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mochilaImg {
+
+    grid-area: foto;
+    background-image: url(../images/hombreconmochila.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.mochila1 {
+    grid-area: mochila1;
+    background-image: url(../images/mochila1.jpeg);
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+
+.mochila2 {
+    grid-area: mochila2;
+    background-image: url(../images/mochila2.jpeg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.mochila3 {
+    grid-area: mochila3;
+    background-image: url(../images/mochila3.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.mochila4 {
+    grid-area: mochila4;
+    background-image: url(../images/mochila4.jpeg);
+    background-size: cover;
+    background-position: center;
+
+
+}

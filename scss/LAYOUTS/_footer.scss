@@ -1,0 +1,68 @@
+/* footer*/
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #93A3BC;
+
+}
+
+
+#mediosDePago img {
+    height: 40px;
+
+}
+
+#mediosDePago {
+    text-align: center;
+}
+
+#mediosDePago h4 {
+    margin-bottom: 15px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+#navegacion h4 {
+    margin-top: 15px;
+}
+#navegacion p{
+    margin: 10px;
+    text-decoration: none;
+}
+
+#infoContacto h4 {
+    margin-top: 15px;
+}
+
+
+#infoContacto img {
+    height: 25px;
+    padding-right: 10px;
+
+}
+#infoContacto p{ margin: 10px;
+
+}
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.telefono {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.ubicacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
