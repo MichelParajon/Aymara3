@@ -15,42 +15,40 @@
     column-gap: 15px;
     row-gap: 20px;
     justify-content: center;
-    
-    
+
+
     .desayuno {
         grid-area: desayuno;
         background-image: url(../images/desayuno.jpeg);
         @include Fotos
-    
     }
-    
+
     .taza {
         grid-area: taza;
         background-image: url(../images/tazas.jpeg);
         @include Fotos
-    
     }
-    
+
     .tejido {
         grid-area: tejido;
         background-image: url(../images/tejidos.jpeg);
         @include Fotos
     }
-    
-    
+
+
     .pijama {
         grid-area: pijama;
         background-image: url(../images/pijama.jpeg);
         @include Fotos
     }
-    
+
     .bandeja {
         grid-area: bandeja;
         background-image: url(../images/bandeja.jpeg);
         @include Fotos
     }
-    
-    
+
+
 
 }
 
@@ -71,7 +69,7 @@
         color: white;
         padding-top: 25px;
 
-}
+    }
 
 
 }

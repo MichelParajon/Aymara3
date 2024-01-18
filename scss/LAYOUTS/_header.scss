@@ -13,7 +13,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 15px;
-   
+    text-decoration:color(black)
+
 }
 
 .content img {
@@ -27,16 +28,28 @@
     align-items: center;
     margin-left: 50px;
     margin-bottom: 80px;
+
     img {
         width: 60px;
-       
+
     }
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
     p {
         align-items: center;
         margin-top: 15px;
-    
+
+    }
+
+    span {
+        display: none;
     }
 }
+
 .navbar-brand {
     display: none;
 }

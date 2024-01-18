@@ -14,6 +14,7 @@ footer {
 #mediosDePago {
     text-align: center;
 
+
     img {
         height: 40px;
 
@@ -29,6 +30,8 @@ footer {
 
 
 #navegacion {
+    
+
     h4 {
         margin-top: 15px;
     }
@@ -37,7 +40,10 @@ footer {
         margin: 10px;
         text-decoration: none;
     }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 }
 
 
@@ -78,5 +84,12 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+
+}
+
+.copyrigth {
+    background-color: white;
+    width: auto;
+    text-align: center;
 
 }

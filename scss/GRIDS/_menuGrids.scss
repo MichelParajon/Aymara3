@@ -17,47 +17,41 @@
     color: #93A3BC;
     font-size: 45px;
 
+
     .calzado {
         grid-area: calzado;
         background-image: url(../images/calzado.jpeg);
         @include Fotos
     }
-    
+
     .mate {
         grid-area: mate;
         background-image: url(../images/mate.jpeg);
         @include Fotos
-        
     }
-    
+
     .tiradores {
         grid-area: tiradores;
         background-image: url(../images/tiradores.jpeg);
         @include Fotos
-    
     }
-    
+
     .collares {
         grid-area: collares;
         background-image: url(../images/collares.jpeg);
         @include Fotos
-        
-    
     }
-    
+
     .billeteras {
         grid-area: billeteras;
         background-image: url(../images/billeteras.jpeg);
         @include Fotos
-        
     }
-    
+
     .adornos {
         grid-area: adornos;
         background-image: url(../images/adornos.jpeg);
         @include Fotos
-        
     }
 
 }
-

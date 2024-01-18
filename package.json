@@ -1,3 +1,12 @@
 {
-  "description": ""
+  "name": "Ayamará 3",
+  "version": "1.0.0",
+  "description": "Descripción del proyecto",
+  "scripts": {
+    "sass": "sass --watch scss:css"
+  },
+  "devDependencies": {
+    "sass": "^1.69.7"
+   
+  }
 }

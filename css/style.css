@@ -89,32 +89,28 @@ main {
 }
 
 /*   VANNER MAYORISTA   */
-#vannerMayorista {
-  background-color: #CCDDE2;
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
-  align-items: center;
-  height: 150px;
-  width: 100%;
-  margin-top: 250px;
-  border-top: solid 1px;
-  border-bottom: solid 1px;
+#hotsaleContainer {
+  background-color: #dee2e6;
 }
 
-.tituloMayorista a {
-  font-size: 150px;
-  margin-right: 250px;
-  text-decoration: none;
-  color: white;
+#ventasxmayor {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  height: 60vh;
+  width: 100%;
 }
-.tituloMayorista h2 {
-  font-size: 80px;
+
+#EnviosConrtainer2 {
+  background-color: #dee2e6;
+}
+
+#EnviosConrtainer {
+  display: flex;
+  justify-content: center;
   margin-top: 200px;
-  align-content: center;
-}
-.tituloMayorista a:visited {
-  text-decoration: none;
+  width: 100%;
+  height: 60vh;
 }
 
 /*GRIDS*/
@@ -155,21 +151,18 @@ main {
   background-image: url(../images/collares.jpeg);
   background-size: cover;
   background-position: center;
-  text-align: start;
 }
 #gridcontainer .billeteras {
   grid-area: billeteras;
   background-image: url(../images/billeteras.jpeg);
   background-size: cover;
   background-position: center;
-  text-align: center;
 }
 #gridcontainer .adornos {
   grid-area: adornos;
   background-image: url(../images/adornos.jpeg);
   background-size: cover;
   background-position: center;
-  text-align: end;
 }
 
 /*mochilas*/
@@ -207,7 +200,6 @@ main {
   background-image: url(../images/hombreconmochila.jpeg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 #mochilasContainer .mochila1 {
   grid-area: mochila1;
@@ -322,6 +314,10 @@ footer {
   margin: 10px;
   text-decoration: none;
 }
+#navegacion a {
+  text-decoration: none;
+  color: black;
+}
 
 #infoContacto h4 {
   margin-top: 15px;
@@ -352,6 +348,12 @@ footer {
   align-items: center;
 }
 
+.copyrigth {
+  background-color: white;
+  width: auto;
+  text-align: center;
+}
+
 /*HEADER*/
 .navbar {
   margin-bottom: 80px;
@@ -363,6 +365,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 15px 15px;
+  text-decoration: color(black);
 }
 
 .content img {
@@ -379,9 +382,16 @@ footer {
 .logoNombre img {
   width: 60px;
 }
+.logoNombre a {
+  text-decoration: none;
+  color: black;
+}
 .logoNombre p {
   align-items: center;
   margin-top: 15px;
+}
+.logoNombre span {
+  display: none;
 }
 
 .navbar-brand {
@@ -420,7 +430,6 @@ footer {
 #ayudaUsuario {
   display: flex;
   flex-direction: column;
-  text-align: left;
   padding: 50px;
   margin-left: 30px;
   margin-right: 50px;
@@ -428,10 +437,8 @@ footer {
 #ayudaUsuario .pregunta {
   display: flex;
   justify-content: space-between;
-  text-align: right;
 }
 #ayudaUsuario h3 {
-  text-align: left;
   font-size: 40px;
 }
 #ayudaUsuario p {
@@ -472,7 +479,10 @@ footer {
 }
 
 iframe {
-  margin-top: 50px;
+  width: 100%;
+  max-width: 100%;
+  height: 350px;
+  margin-top: 30px;
 }
 
 /* -----------------NOSOTROS NOSOTROS NOSOTROS NOSOTROS NOSOTROS NOSOTROS------------------- */
@@ -552,72 +562,268 @@ iframe {
   background-position: center;
 }
 
+#nosotrosMobile {
+  display: none;
+}
+
 /* -----------------PRODUCTOS PRODUCTOS PRODUCTOS PRODUCTOS PRODUCTOS PRODUCTOS------------------- */
-.conteiner-items {
-  display: inline-flex;
-  gap: 30px;
-  margin-left: 90px;
+#MenuTodosProductos {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+#MenuTodosProductos article {
+  padding: 10px;
+  background-color: #93A3BC;
 }
 
-.item img {
-  width: 300px;
-}
-
-.item:hover {
-  box-shadow: 0 10px 20px;
-}
-
-.info-product {
-  padding: 15px 30px;
-}
-.info-product button {
-  align-items: center;
-}
-.info-product H3 {
-  color: #93A3BC;
-  font-size: 40PX;
-}
-.info-product button {
-  border: none;
-  background: none;
-  background-color: #48ACF0;
-  color: white;
-  padding: 15px 10px;
-  cursor: pointer;
-  align-items: center;
-}
-
-.item figure {
-  overflow: hidden;
-}
-.item figure:hover img {
-  transform: scale(1.2);
-}
-
-.price {
-  font-size: 10px;
-  font-weight: 900;
-  text-align: center;
-}
-
-.destacados {
+#tituloProductos h2 {
   font-size: 60px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  text-align: center;
+  margin-top: 60px;
 }
 
-/* =------------- MEDIA QUERIES ------------= */
-@media screen and (max-width: 576px) {
+#todosLosProductos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.product-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  padding: 20px;
+}
+
+.product-info h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  color: #666;
+}
+
+.product-info .price {
+  font-weight: bold;
+  color: #ff5733;
+}
+
+.add-to-cart-btn {
+  background-color: #93A3BC;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out;
+  margin-bottom: 5px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #93A3BC;
+}
+
+/* =------------- MEDIA QUERIES TABLET------------= */
+@media screen and (max-width: 768px) {
   #gridcontainer {
     grid-template-areas: "calzado    mate " "adornos billeteras";
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
     row-gap: 10px;
     gap: 10px;
+    margin-left: 35px;
+    margin-right: 20px;
+    width: auto;
+  }
+  .Envio1 {
+    display: none;
+  }
+  .modelohotancha {
+    display: none;
+  }
+  .portada p {
+    display: none;
+  }
+  #mochilasContainer {
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas: "  mochila1   mochila2" "   mochila3   mochila4";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+    column-gap: 15px;
+    row-gap: 20px;
+    justify-content: center;
+    height: 100vh;
+  }
+  #prodcutosContainer {
+    display: grid;
+    grid-template-areas: " taza     taza     taza" "  tejido   pijama   bandeja";
+    grid-template-columns: 35% 30% 30%;
+    grid-template-rows: 50% 50%;
+    padding-bottom: 100px;
+    height: 100vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    column-gap: 15px;
+    row-gap: 20px;
+    justify-content: center;
+  }
+  #infoContacto {
+    display: flex;
+    flex-direction: column;
+  }
+  .portada h1 {
+    display: none;
+  }
+  .logoNombre {
+    align-content: center;
+  }
+  .logoNombre p {
+    font-size: 80px;
+    color: white;
+    margin-top: 10px;
+  }
+  .logoNombre img {
+    height: 100px;
+    width: auto;
+  }
+  #footer {
+    display: flex;
+    flex-direction: column;
+  }
+  #gridNosotros {
+    display: none;
+  }
+  #nosotrosMobile {
+    display: flex;
+    flex-direction: column;
+  }
+  #nosotrosMobile img {
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: auto;
+  }
+  #nosotrosMobile p {
+    text-align: center;
+  }
+  #nosotros,
+  h1 {
+    margin-top: 20px;
+    font-size: 65px;
+  }
+  #mainContacto {
+    display: flex;
+    flex-direction: column;
+  }
+  form {
     margin-left: 20px;
     margin-right: 20px;
+    max-width: 425px;
+  }
+  .infoContactoContainer iframe {
+    max-width: 420px;
+  }
+  #ayudaUsuario h3 {
+    font-size: 40px;
+  }
+  #ayudaUsuario p {
+    font-size: 20px;
+    width: 250px;
+  }
+}
+/* =------------- MEDIA QUERIES MOBILE ------------= */
+@media screen and (max-width: 425px) {
+  #gridcontainer {
+    grid-template-areas: "calzado    mate " "adornos billeteras";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    height: 80vh;
+    row-gap: 10px;
+    gap: 10px;
+    margin-left: 35px;
+    margin-right: 20px;
+  }
+  .otrosProductos h2 {
+    font-size: 30px;
+  }
+  .tituloMochilas h2 {
+    font-size: 30px;
+  }
+  .logoNombre {
+    align-content: center;
+  }
+  .logoNombre p {
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+  }
+  .logoNombre span {
+    font-size: 10px;
+    margin-top: 300px;
+  }
+  .vannerhotsale {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .vanerEnvios {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .modelohotancha {
+    display: none;
+  }
+  .modelohotsale {
+    display: none;
+  }
+  .Envio1 {
+    display: none;
+  }
+  .envio2 {
+    display: none;
+  }
+  .portada h1 {
+    display: none;
+  }
+  .portada p {
+    display: none;
   }
   /* COMPRA MAYORISTA*/
   #opcionesCompra p {
@@ -634,13 +840,13 @@ iframe {
   }
   /*MOCHILAS*/
   #mochilasContainer {
-    grid-template-areas: "foto   mochila1  " "foto   mochila3  ";
+    grid-template-areas: "mochila4  mochila1  " "mochila2  mochila3  ";
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     gap: 10px;
     height: 100vh;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 30px;
   }
   .mochilaImg {
     background-position: left;
@@ -674,13 +880,38 @@ iframe {
   form {
     margin-left: 20px;
     margin-right: 20px;
+    max-width: 425px;
   }
-  /* -----------------menu menu menu menu------------------- */
-  .portada h1 {
+  .infoContactoContainer iframe {
+    max-width: 420px;
+  }
+  #ayudaUsuario h3 {
+    font-size: 20px;
+  }
+  #ayudaUsuario p {
+    font-size: 10px;
+    width: 250px;
+  }
+  /*----------------------- NOSOTROS ------------------------- */
+  #gridNosotros {
     display: none;
   }
-  .portada {
-    display: none;
+  #nosotrosMobile {
+    display: flex;
+    flex-direction: column;
+  }
+  #nosotrosMobile img {
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  #nosotrosMobile p {
+    text-align: center;
+  }
+  #nosotros,
+  h1 {
+    margin-top: 20px;
+    font-size: 45px;
   }
 }
 
